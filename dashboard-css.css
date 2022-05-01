@@ -1,0 +1,512 @@
+.bars{
+    position: relative;
+    width: 1662px;
+}
+.cs-div1{
+    height:275px;
+    position: relative;
+    top: 20px;
+    background-image: url('calender.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.cs-div1-1{
+    display: inline-block;
+    position: relative;
+    top: 240px;
+    font-size:50px;
+    left: 170px;
+    background-color: rgb(255, 75, 75);
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+}
+.cs-div2{
+    height: 200px;
+    position: relative;
+    top: 25px;
+}
+.cs-div2-row{
+    display: flex;
+    flex-direction: row;
+    height: 65px;
+    height: 55px;
+    padding-top: 10px;
+    justify-content: space-between;
+    padding-left: 2px;
+    padding-right: 2px;
+    
+}
+.cs-div2-dates{
+    font-size:40px ;
+    border-color: beige;
+    border-style: outset;
+    border-width: 2px;
+    background-color: rgb(255, 75, 75);
+    color: black;
+}
+.cs-div3-1{
+    position: relative;
+    top: 24px;
+    left: 20px;
+    font-size: 20px;
+}
+.cs-div3-2{
+    position: relative;
+    top: 24px;
+    left: 20px;
+    font-size: 20px;
+}
+.cs-div3-2-1{
+    position: relative;
+    top: 30px;
+    left: 50px;
+    width: 400px;
+    border-style: solid;
+    border-color: brown;
+}
+.cs-div3-2-1-para{
+    width: 250px;
+    padding-top: 5px;
+    padding-bottom:  5px;
+    color: black;
+}
+.common{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 4px;
+}
+.dashboard-company{
+    display: inline-block;
+    font-size: 70px;
+    font-weight: bold;
+    position: relative;
+    vertical-align: top;
+    left: 550px;
+    font-family: 	The Quick Brown Fox Jumps Over The Lazy Dog;
+    text-decoration: underline;
+}
+.brandlogo{
+    display: inline-block;
+    width: 70px;
+    border-radius: 35px 35px 35px 35px;
+    position: relative;
+    left: 550px;
+    top: 5px;
+}
+.all-content{
+    height: 750px;
+    width: 1662px;
+    background-color: lightpink;
+
+}
+.calender-section{
+    display: inline-block;
+    width: 500px;
+    height: 740px;
+    vertical-align: top;
+    position:relative ;
+    left: 15px;
+    border-style: outset;
+    border-color: black;
+    border-radius: 10px;
+}
+.remaining-section{
+    display: inline-block;
+    height: 750px;
+    width: 950px;
+    position: relative;
+    left: 30px;
+    background-color: lightpink;
+}
+.rs-div1{
+    width: 945px;
+    height: 250px;
+}
+.rs-div2{
+    width: 945px;
+    height: 250px;
+}
+.rs-div3{
+    width: 945px;
+    height: 250px;
+}
+.rs-div2-1{
+    height: 235px;
+    width: 440px;
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    top: 5px;
+    left: 20px;
+    background-image: url(bg1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    border-color: black;
+    border-style: solid;
+}
+.rs-div2-2{
+    height: 235px;
+    width: 440px;
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    top: 5px;
+    left: 45px;
+    background-image: url(bg1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    border-color: black;
+    border-style: solid;
+    
+}
+.rs-div3-1{
+    height: 235px;
+    width: 440px;
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    left: 20px; 
+    background-image: url(bg1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    border-color: black;
+    border-style: solid;
+}
+.rs-div3-2{
+    height: 235px;
+    width: 440px;
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    left: 45px; 
+    background-image: url(bg1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    border-color: black;
+    border-style: solid;
+}
+.rs-div2-1-1{
+    font-size: 40px;
+    position: relative;
+    top: 40px;
+    background-color: rgb(255, 126, 148);
+    border-radius: 15px;
+}    
+
+.rs-div2-1-1-1{
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    left: 150px;
+    top: 10px;
+    font-weight: bold;
+}
+.rs-div2-1-1-2{
+    display: inline-block;
+    position: relative;
+}
+.rs-div2-2-1{
+    font-size: 40px;
+    position: relative;
+    top: 40px;
+    background-color: rgb(255, 126, 148);
+    border-radius: 15px;
+}    
+.rs-div2-2-1-1{
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    top: 10px;
+    left: 60px;
+    font-weight: bold;
+}
+.rs-div2-2-1-2{
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+}    
+.rs-div3-1-1{
+    font-size: 40px;
+    position: relative;
+    top: 40px;
+    background-color: rgb(255, 126, 148);
+    border-radius: 15px;
+}    
+.rs-div3-1-1-1{
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    top: 10px;
+    left: 210px;
+    font-weight: bold;
+}
+.rs-div3-1-1-2{
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+}
+.rs-div3-2-1{
+    font-size: 40px;
+    position: relative;
+    top: 40px;
+    background-color: rgb(255, 126, 148);
+    border-radius: 15px;
+}    
+.rs-div3-2-1-1{
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    top: 10px;
+    left: 140px;
+    font-weight: bold;
+}
+.rs-div3-2-1-2{
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+}
+.rs-div1-1{
+
+    font-size: 40px;
+    vertical-align: top;
+    position: relative;
+    top: 160px;
+    left: 580px;
+    display: inline-block;
+}
+.rs-div1-1-1{
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    top: 10px;
+    background-color: rgb(255, 75, 75);
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: black;
+    border-color: black;
+    border-style: solid;
+}
+.rs-div1-1-2{
+    display: inline-block;
+    position: relative;
+    top: 14px;
+}
+.rs-div1-1-3{
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    top: 59px;
+    right: 290px;
+    font-size: 20px;
+    background-color: rgb(255, 75, 75);
+    color: black;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+}
+.logo0{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 30px 30px 30px 30px;
+}
+.logo1{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 30px 30px 30px 30px;
+    position: relative;
+    top: 5px;
+    left: 150px;
+}
+.logo2{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 30px 30px 30px 30px;
+    position: relative;
+    top: 5px;
+    left: 60px;
+}
+.logo3{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 30px 30px 30px 30px;
+    position: relative;
+    top: 5px;
+    left: 210px;
+}
+.logo4{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 30px 30px 30px 30px;
+    position: relative;
+    top: 5px;
+    left: 140px;
+}
+.rs-div2-1-2{
+    position: relative;
+    top: 45px;
+}
+.rs-div2-1-2-all{
+    font-size: 15px;
+    padding-left: 100px;
+    padding-bottom: 2px;
+}
+.rs-div2-2-2{
+    position: relative;
+    top: 45px;
+}
+.rs-div3-1-2{
+    position: relative;
+    top: 45px;
+}
+.rs-div3-2-2{
+    position: relative;
+    top: 45px;
+}
+.rs-div3-1-2-all{
+    font-size: 15px;
+    padding-left: 100px;
+    padding-bottom: 2px;
+}
+.rs-div3-2-2-all{
+    font-size: 15px;
+    padding-left: 100px;
+    padding-bottom: 2px;
+}
+.rs-div2-2-2-all{
+    font-size: 15px;
+    padding-left: 100px;
+    padding-bottom: 2px;
+}
+.buttons{
+    border-style: outset;
+    color: gray;
+    border-radius: 15px;
+    border-radius: 10px;
+    margin-top: 5px;
+    background-color: rgb(250, 201, 208);
+}
+.buttons:hover{
+    background-color: rgb(252, 152, 152);
+}
+.buttons:active{
+    opacity: 0.5;
+}
+.chats{
+    display: inline-block;
+    height: 740px;
+    width: 150px;
+    position: relative;
+    vertical-align: top;
+    left: 40px;
+    background-color: rgb(255, 75, 75);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    border-style: outset;
+    border-color: black;
+}
+.chats1{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 30px 30px 30px 30px;
+    position: relative;
+    left: 40px;
+}
+.chats2{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 30px 30px 30px 30px;
+    position: relative;
+    left: 40px;
+}
+.chats3{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 30px 30px 30px 30px;
+    position: relative;
+    left: 40px;
+}
+.chats4{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 30px 30px 30px 30px;
+    position: relative;
+    left: 40px;
+    top: 20px;
+}
+.chats-msg{
+    font-size: 25px;
+    position: relative;
+    background-color: rgb(255, 75, 75);
+    border-radius: 5px;
+    padding-left: 10px;
+    text-decoration: underline;
+}
+.chat-name1{
+    font-size: 20px;
+    position: relative;
+    left: 40px;
+    display: inline-block;
+    background-color: lightpink;
+    top: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 3px;
+}
+.chat-name2{
+    font-size: 20px;
+    position: relative;
+    display: inline-block;
+    background-color: lightpink;
+    top: 25px;
+    right: 22px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 3px;
+}
+.chat-name3{
+    font-size: 20px;
+    position: relative;
+    display: inline-block;
+    background-color: lightpink;
+    top: 44px;
+    right: 22px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 3px;
+}
+.chat-id{
+    margin-top: 30px;
+}
+.noti{
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+    border-radius: 30px 30px 30px 30px;
+    position: relative;
+    vertical-align: top;
+    left: 20px;  
+}
