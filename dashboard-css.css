@@ -2,14 +2,13 @@
     position: relative;
     width: 1662px;
 }
+.header{
+    width: 100%;
+}
 .cs-div1{
     height:275px;
     position: relative;
     top: 27px;
-    background-image: url('img/calender.jpg');
-    background-size: 400px 300px;
-    background-repeat: no-repeat;
-    background-position: center;
 }
 .cs-div1-1{
     display: inline-block;
@@ -17,10 +16,7 @@
     top: 220px;
     font-size:50px;
     left: 170px;
-    background-color: rgb(255, 75, 75);
-    padding-left: 10px;
-    padding-right: 10px;
-    border-radius: 10px;
+    color: white;
 }
 .cs-div2{
     height: 200px;
@@ -43,8 +39,8 @@
     border-color: beige;
     border-style: outset;
     border-width: 2px;
-    background-color: rgb(255, 75, 75);
-    color: black;
+    color: white;
+    text-shadow: 0 0 1px white;
 }
 .cs-div3-1{
     position: relative;
@@ -70,7 +66,7 @@
     width: 250px;
     padding-top: 5px;
     padding-bottom:  5px;
-    color: black;
+    color: white;
 }
 .common{
     display: inline-block;
@@ -86,6 +82,7 @@
     left: 550px;
     font-family: 	The Quick Brown Fox Jumps Over The Lazy Dog;
     text-decoration: underline;
+    color: white;
 }
 .brandlogo{
     display: inline-block;
@@ -98,7 +95,6 @@
 .all-content{
     height: 750px;
     width: 1662px;
-    background-color: lightpink;
 
 }
 .calender-section{
@@ -109,7 +105,7 @@
     position:relative ;
     left: 15px;
     border-style: outset;
-    border-color: black;
+    border-color: white;
     border-radius: 10px;
 }
 .remaining-section{
@@ -118,7 +114,6 @@
     width: 950px;
     position: relative;
     left: 30px;
-    background-color: lightpink;
 }
 .rs-div1{
     width: 945px;
@@ -140,12 +135,8 @@
     vertical-align: top;
     top: 5px;
     left: 20px;
-    background-image: url(bg1.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     border-radius: 20px;
-    border-color: black;
+    border-color: white;
     border-style: solid;
 }
 .rs-div2-2{
@@ -156,12 +147,8 @@
     vertical-align: top;
     top: 5px;
     left: 45px;
-    background-image: url(bg1.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     border-radius: 20px;
-    border-color: black;
+    border-color: white;
     border-style: solid;
     
 }
@@ -172,12 +159,8 @@
     position: relative;
     top: 5px;
     left: 20px; 
-    background-image: url(bg1.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     border-radius: 20px;
-    border-color: black;
+    border-color: white;
     border-style: solid;
 }
 .rs-div3-2{
@@ -187,19 +170,14 @@
     position: relative;
     top: 5px;
     left: 45px; 
-    background-image: url(bg1.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     border-radius: 20px;
-    border-color: black;
+    border-color: white;
     border-style: solid;
 }
 .rs-div2-1-1{
     font-size: 40px;
     position: relative;
     top: 40px;
-    background-color: rgb(255, 126, 148);
     border-radius: 15px;
 }    
 
@@ -210,6 +188,7 @@
     left: 150px;
     top: 10px;
     font-weight: bold;
+    color: white;
 }
 .rs-div2-1-1-2{
     display: inline-block;
@@ -219,7 +198,6 @@
     font-size: 40px;
     position: relative;
     top: 40px;
-    background-color: rgb(255, 126, 148);
     border-radius: 15px;
 }    
 .rs-div2-2-1-1{
@@ -229,6 +207,7 @@
     top: 10px;
     left: 60px;
     font-weight: bold;
+    color: white;
 }
 .rs-div2-2-1-2{
     display: inline-block;
@@ -239,7 +218,6 @@
     font-size: 40px;
     position: relative;
     top: 40px;
-    background-color: rgb(255, 126, 148);
     border-radius: 15px;
 }    
 .rs-div3-1-1-1{
@@ -249,6 +227,7 @@
     top: 10px;
     left: 210px;
     font-weight: bold;
+    color: white;
 }
 .rs-div3-1-1-2{
     display: inline-block;
@@ -259,7 +238,6 @@
     font-size: 40px;
     position: relative;
     top: 40px;
-    background-color: rgb(255, 126, 148);
     border-radius: 15px;
 }    
 .rs-div3-2-1-1{
@@ -269,6 +247,7 @@
     top: 10px;
     left: 140px;
     font-weight: bold;
+    color: white;
 }
 .rs-div3-2-1-2{
     display: inline-block;
@@ -289,13 +268,13 @@
     vertical-align: top;
     position: relative;
     top: 10px;
-    background-color: rgb(255, 75, 75);
     border-radius: 5px;
     padding-left: 5px;
     padding-right: 5px;
-    color: black;
-    border-color: black;
+    color: white;
+    border-color: white;
     border-style: solid;
+    text-shadow: 0 0 2px black;
 }
 .rs-div1-1-2{
     display: inline-block;
@@ -309,12 +288,11 @@
     top: 59px;
     right: 290px;
     font-size: 20px;
-    background-color: rgb(255, 75, 75);
-    color: black;
+    color: white;
     padding-left: 5px;
     padding-right: 5px;
     border-radius: 5px;
-    border-color: black;
+    border-color: white;
     border-style: solid;
 }
 .logo0{
@@ -403,7 +381,7 @@
     margin-top: 5px;
 }
 .buttons:hover{
-    background-color: rgb(252, 152, 152);
+    background-color: rgb(90, 179, 252);
 }
 .buttons:active{
     opacity: 0.5;
@@ -415,13 +393,9 @@
     position: relative;
     vertical-align: top;
     left: 40px;
-    background-color: rgb(255, 75, 75);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     border-radius: 10px;
     border-style: outset;
-    border-color: black;
+    border-color: white;
 }
 .chats1{
     width: 60px;
@@ -459,7 +433,6 @@
 .chats-msg{
     font-size: 25px;
     position: relative;
-    background-color: rgb(255, 75, 75);
     border-radius: 5px;
     padding-left: 10px;
     text-decoration: underline;
